@@ -1,6 +1,59 @@
 ﻿body {
 }
 
+.przycisk{
+
+   color: #1abc9c;
+    background-color: Transparent;
+    height: 50px;
+    width: 340px;
+    padding: 10px;
+    border: solid 2px #1abc9c;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Consolas;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+
+.przycisk:hover{
+color: #fff;
+    border: solid 5px #fff;
+
+
+}
+
+
+
+
+.Przycisk2{
+    margin:10px;
+    padding:5px 10px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  -webkit-border-top-right-radius: 15px;
+  -webkit-border-top-left-radius: 15px;
+  background-color: #4CAF50;
+  border: none;
+  box-shadow: 0 9px #999;
+
+}
+.Przycisk2:hover{
+    text-align:center;
+
+}
+.Przycisk2:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
 .srodek {
     width:500px;
     border:dashed;
@@ -31,24 +84,3 @@ display:inline-block;
     padding: 0px 0px 3px 0px;
 }
 
-.bordereffect{
-    color: #1abc9c;
-    background-color: Transparent;
-    height: 50px;
-    width: 340px;
-    padding: 10px;
-    border: solid 2px #1abc9c;
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: Consolas;
-    -webkit-border-radius: 0px 0px 0px 0px;
-    -moz-border-radius: 0px 0px 0px 0px;
-    border-radius: 0px 0px 0px 0px;
-
-}
-.bordereffect:hover{
-      color: #fff;
-    border: solid 5px #fff;
-    cursor:pointer;
-
-}

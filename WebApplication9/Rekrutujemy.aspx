@@ -22,7 +22,7 @@
                 
                  <asp:MultiView ID="mvTresc" runat="server" ActiveViewIndex="1">
             <asp:View ID="vSuccess" runat="server">
-                <div id="SuccesDiv" class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span>Zgłoszenie zostało wysłane!</strong></div>	 
+                <div style="align-content:center"><div id="SuccesDiv" class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span>Zgłoszenie zostało wysłane!</strong></div></div>
                 <div class="przerwy"></div>   <div class="przerwy"></div>
                    <div class="lacze">
                     <div class="lewy">
@@ -34,7 +34,8 @@
                         <div class="przerwy">Czy pierwsza drużyna:</div>
                     </div>
                     <div class="prawy">
-                <div class="przerwy"><div style="color=red">
+                <div class="przerwy"><div style="color:red">
+                      <div class="przerwy">
                                     <asp:Label runat="server" ID="LabelImie"></asp:Label></div>
                                 <div class="przerwy">
                                     <asp:Label runat="server" ID="LabelNazwisko"></asp:Label></div>
@@ -47,7 +48,10 @@
                                 <div class="przerwy">
                                     <asp:Label runat="server" ID="LabelRBTakNie"></asp:Label></div>   
                  </div></div>
-                    <div style="align-content:center"><asp:Button ID="ButtonWysDalej" Text="Wróć do strony głownej" CssClass="bordereffect" runat="server" OnClick="ButtonWysDalej_Click" /></div>   
+</div>
+             <div style="align-content:center"><asp:Button ID="ButtonWysDalej" Text="Wróć do strony głownej"  runat="server" OnClick="ButtonWysDalej_Click" CssClass="przycisk"/></div>
+                  </div>
+
             </asp:View>
 
             <asp:View ID="vDane" runat="server">
@@ -104,8 +108,8 @@
                                     <asp:RequiredFieldValidator ID="RFVtakNieRBV" runat="server" ControlToValidate="RBVtakNie" ErrorMessage="Pole czy to jest twoja pierwsza druzyna jest obowiazkowe" Text="*" ForeColor="Red"></asp:RequiredFieldValidator></div>
                             </div>
                         </div>
-                     <asp:Button ID="Wroc" runat="server" Text="Wroc" OnClick="Wroc_Click" CausesValidation="false" ></asp:Button>
-                     <asp:Button ID="Zatwierdz" runat="server" Text="Zatwierdz" OnClick="Zatwierdz_Click" ></asp:Button>
+                     <asp:Button ID="Wroc" runat="server" Text="Wroc" OnClick="Wroc_Click" CausesValidation="false" CssClass="Przycisk2" ></asp:Button>
+                     <asp:Button ID="Zatwierdz" runat="server" Text="Zatwierdz" OnClick="Zatwierdz_Click" CssClass="Przycisk2"></asp:Button>
                 </div>
                 </asp:View>
                      </asp:MultiView>
