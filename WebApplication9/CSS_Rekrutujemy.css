@@ -1,0 +1,54 @@
+﻿body {
+}
+
+.srodek {
+    width:500px;
+    border:dashed;
+    margin:10px auto;
+       background: #ddc1c1;
+}
+
+.lewy {
+display:inline-block;
+ vertical-align:top;
+    
+   margin: 0 auto;
+    text-align:right;
+       vertical-align: middle;
+}
+
+.prawy {
+    display:inline-block;
+ vertical-align:top;
+    
+   margin: 0 auto;
+   text-align:left;
+}
+.lacze{
+          text-align:center;
+}
+.przerwy{
+    padding: 0px 0px 3px 0px;
+}
+
+.bordereffect{
+    color: #1abc9c;
+    background-color: Transparent;
+    height: 50px;
+    width: 340px;
+    padding: 10px;
+    border: solid 2px #1abc9c;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Consolas;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+
+}
+.bordereffect:hover{
+      color: #fff;
+    border: solid 5px #fff;
+    cursor:pointer;
+
+}

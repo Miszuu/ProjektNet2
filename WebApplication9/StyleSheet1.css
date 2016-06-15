@@ -1,0 +1,87 @@
+﻿body {
+    font-family:Verdana;
+}
+
+div.menu ul{
+    background:green;
+list-style:none;
+margin:0;
+padding:0;
+width:auto;
+}
+div.menu a.level1 {
+background: #d6d0d0;
+margin: 5px;
+padding: 5px;
+}
+div.menu a.level2 {
+ margin:5px;
+ padding:5px;
+background: #d6d0d0;
+padding-left: 100px;
+}
+div.menu a:hover{
+background: #ddc1c1;
+}
+div.menu a.selected {
+background: green;
+}
+
+.naglowek{
+    margin-bottom:5px;
+    height: 150px;
+    width: 100%;
+    text-align:center;
+}
+
+.lewy_srodek{
+ color:black;
+ align-content:center;
+    width: 200px;
+
+    display:inline-block;
+}
+.prawy_srodek{
+    width:200px;
+  
+    display:inline-block;
+    background: #ddc1c1;
+    vertical-align:top;
+}
+.srodek{
+    width:calc(100% - 435px);
+   padding:10px;
+    display:inline-block;
+    background: #ddc1c1;
+    vertical-align:top;
+}
+.stopka {
+   font-weight: bold;
+    text-align:center;
+    height:50px;
+    width:100%;
+    background: #A09B9B;
+
+}
+.news_data {
+    border:solid;
+    border-color: #01fa01;
+    background-color:white;
+    font-family:'Times New Roman';
+    width:125px;
+    text-align:center;
+    font-style:italic;
+
+}
+.news_naglowek {
+    font-size:25px;
+    font-family:Verdana;
+    text-align:center;
+    font-weight:bold;
+}
+.news_tresc {
+    font-family:Verdana;
+}
+.news_przerwa {
+    height:50px;
+}

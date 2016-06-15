@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<!--Created: 2016-04-03 18:30:31-->
+<PlayerList>
+  <Player ID="1">
+    <Name>Adam Małysz</Name>
+    <Nick>Flash</Nick>
+    <Clan>najlepszy</Clan>
+    <Rasa>Terran</Rasa>
+    <National>Korea</National>
+    <Picture>   kupa
+    </Picture>
+  </Player>
+
+  <Player ID="2">
+    <Name>Michał Słomczyński</Name>
+    <Nick>Miszu</Nick>
+    <Clan>najgorszy</Clan>
+    <Rasa>Terran</Rasa>
+    <National>Polska</National>
+    <Picture>30</Picture>
+  </Player>
+
+ <Player ID="3">
+    <Name>Szakil Onil</Name>
+    <Nick>PuPu</Nick>
+    <Clan>najlepszy</Clan>
+    <Rasa>Zerg</Rasa>
+    <National>Finlandia</National>
+    <Picture>30</Picture>
+  </Player>
+
+ <Player ID="4">
+    <Name>Denzel Łoszington</Name>
+    <Nick>puCK</Nick>
+    <Clan>najlepszy</Clan>
+    <Rasa>Protoss</Rasa>
+    <National>USA</National>
+    <Picture>30</Picture>
+  </Player>
+
+ <Player ID="5">
+    <Name>Jakiś Nołnejm</Name>
+    <Nick>Silky</Nick>
+    <Clan>najlepszy</Clan>
+    <Rasa>Zerg</Rasa>
+    <National>Chiny</National>
+    <Picture>30</Picture>
+  </Player>
+</PlayerList>
